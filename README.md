@@ -28,9 +28,9 @@ Smart Vehicles Network -->> Server: accept(time_till_arrival)
 Server-->> Connected Vehicles: help_on_the_way(time_till_arrival)
 
 Server->>Smart City Network: hospital_free(GPS_accident)
-Smart City Network -->> Server: hospital(capacity,distance,GPS_Hospital)
+Smart City Network -->> Server: hospital(capacity,distance,GPS_hospital)
 
-Server->>Smart Vehicles Network: dest_Hospital(GPS_Hospital)
+Server->>Smart Vehicles Network: dest_hospital(GPS_hospital)
 ```
 <br/>
 
