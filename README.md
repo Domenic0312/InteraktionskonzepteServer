@@ -15,8 +15,8 @@ Synchron/Asynchron -> TBD
 
 Kommunikation zwischen Services und Server im Falle eines Unfalls
 
-```mermaid
-sequenceDiagram
+```mermaid sequenceDiagram
+
 Connected Vehicles ->> Server: send_sos(GPS_accident,accident_log)
 
 Server->>Smart Vehicles Network: req_vehicle(GPS_accident,accident_log)
