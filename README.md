@@ -2,13 +2,13 @@
 Das Ziel des Projektes ist es die entstehenden Anfragen mit den jeweiligen Daten situationsbedingt an die richtigen Empfänger weiterzuleiten. Dazu soll es offene Schnittstellen für verschiedene Services geben die über ein Protokoll mit dem Server kommunizieren.
 
 ## Requirements
-FREQ00 - Die Schnittstellen müssen Dokumentiert sein
-FREQ01 - Die Kommunikation muss über ein Protokoll stattfinden
-FREQ02 - Die Kommunikation muss drahtlos stattfinden
-FREQ03 - Der MQTT Broker muss über das Internet erreichbar sein
+FREQ00 - Die Schnittstellen müssen Dokumentiert sein <br/>
+FREQ01 - Die Kommunikation muss über ein Protokoll stattfinden <br/>
+FREQ02 - Die Kommunikation muss drahtlos stattfinden <br/>
+FREQ03 - Der MQTT Broker muss über das Internet erreichbar sein <br/>
 
 ## Protokoll
-TBD
+TBD <br/>
 Synchron/Asynchron -> TBD
 
 ## Diagramme
@@ -32,3 +32,6 @@ Smart City Network -->> Server: hospital(capacity,distance,GPS_Hospital)
 
 Server->>Smart Vehicles Network: dest_Hospital(GPS_Hospital)
 ```
+<br/>
+
+[Chrome Extension](https://chrome.google.com/webstore/detail/github-%2B-mermaid/goiiopgdnkogdbjmncgedmgpoajilohe)
