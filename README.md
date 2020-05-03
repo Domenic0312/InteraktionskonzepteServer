@@ -9,3 +9,19 @@ FREQ03 - Der MQTT Broker muss über das Internet erreichbar sein. <br/>
 FREQ04 - Es müssen definierte Topics bereit gestellt werden. <br/>
 FREQ05 - Die Kommunikation muss über die Definierten Topics Stattfinden<br/>
 ### Use Case
+
+#### Anleitung zum Kommunikationsaufbau
+1. Python Installieren
+  -Python Runterladen: https://www.python.org/downloads/
+  -Exe Datei ausführen
+  -!!! Bei der Installation die Path Variable setzen erlauben!!!
+
+2. paho MQTT Installieren
+  -pip Installieren (falls nicht vorhanden) https://pip.pypa.io/en/stable/installing/
+  -paho MQTT Installieren (in Kommandozeile ausführen): "pip install paho-mqtt"
+
+3. Test dateien Ausführen (jeweils eine kommandozeile)(Dateien liegen im "Kommunikation" Ordner)
+  - python sub.py
+  - python pub.py
+4. Erfolg haben
+  -In dem sub.py fenster ist jetzt ein "Hello World!" zu sehen
