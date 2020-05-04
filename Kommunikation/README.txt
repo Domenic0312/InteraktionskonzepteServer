@@ -14,3 +14,10 @@ Anleitung zum nutzen der MQTT Verbindung
   - python pub.py
 4. Erfolg haben
   -in dem sub.py fenster ist jetzt ein "Hello World!" zu sehen
+
+
+
+Für die MQTT Erfahrenen:
+Broker IP: mr2mbqbl71a4vf.messaging.solace.cloud
+Benutzername: solace-cloud-client
+Kennwort: nbsse0pkvpkvhpeh3ll5j7rpha
