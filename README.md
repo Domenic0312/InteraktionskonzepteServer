@@ -2,13 +2,14 @@
 Das Ziel des Projektes ist es, eine Kommunikationsplattform bereit zu stellen. Diese stellt verschiedenste Themen bereit unter denen die Kommunikation von Endgeräten und Logikeinheit stattfindet.
 
 ## Requirements
-FREQ00 - Die Schnittstellen müssen Dokumentiert sein. <br/>
-FREQ01 - Der MQTT Broker muss über das Internet erreichbar sein. <br/>
+FREQ00 - Die Schnittstellen zwischen den Teilnehmern müssen Dokumentiert sein. <br/>
+FREQ01 - Der Broker muss über das Internet erreichbar sein. <br/>
 FREQ02 - Die Kommunikation muss über die Definierten Topics Stattfinden<br/>
-FREQ03 - Der Server muss über ein Webinterface wartbar sein.<br/>
+FREQ03 - Der Broker muss über ein Webinterface wartbar sein.<br/>
+FREQ04 - Der Broker muss Informationen empfangen.<br/>
+FREQ05 - Der Broker muss Informationen nach Bedarf weiterleiten.<br/>
 
 NFREQ00 - Die Kommunikation muss über ein Protokoll stattfinden. <br/>
-NFREQ01 - Es müssen definierte Topics bereit gestellt werden. <br/>
 
 #### Anleitung zum Kommunikationsaufbau
 1. Python Installieren
