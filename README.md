@@ -6,8 +6,10 @@ FREQ00 - Die Schnittstellen zwischen den Teilnehmern müssen Dokumentiert sein. 
 FREQ01 - Der Broker muss über das Internet erreichbar sein. <br/>
 FREQ02 - Die Kommunikation muss über die Definierten Topics Stattfinden<br/>
 FREQ03 - Der Broker muss über ein Webinterface wartbar sein.<br/>
-FREQ04 - Der Broker muss Informationen empfangen.<br/>
-FREQ05 - Der Broker muss Informationen nach Bedarf weiterleiten.<br/>
+FREQ04 - Endgeräte müssen sich am Server anmelden können.<br/>
+FREQ05 - Endgeräte müssen dem Server können welche Topics sie abbonieren wollen.<br/>
+FREQ06 - Der Broker muss Informationen empfangen.<br/>
+FREQ07 - Der Broker muss Informationen nach Bedarf weiterleiten.<br/>
 
 NFREQ00 - Die Kommunikation muss über ein Protokoll stattfinden. <br/>
 
