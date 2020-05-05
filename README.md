@@ -9,7 +9,6 @@ FREQ03 - Der Server muss über ein Webinterface wartbar sein.<br/>
 
 NFREQ00 - Die Kommunikation muss über ein Protokoll stattfinden. <br/>
 NFREQ01 - Es müssen definierte Topics bereit gestellt werden. <br/>
-### Use Case
 
 #### Anleitung zum Kommunikationsaufbau
 1. Python Installieren
